@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;lQueue.java&apos; to &apos;JAVA_PRACTISE/src/Queue&apos;&#x0D;&#x0A;- Original project: &apos;Queue&apos;&#x0D;&#x0A;- Destination element: &apos;JAVA_PRACTISE/src/Queue&apos;&#x0D;&#x0A;- Original element: &apos;LinearQueue.lQueue.java&apos;" description="Copy compilation unit" destination="=JAVA_PRACTISE/src&lt;Queue" element1="/src&lt;LinearQueue{lQueue.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1698690407548" units="1" version="1.0"/>
+</session>

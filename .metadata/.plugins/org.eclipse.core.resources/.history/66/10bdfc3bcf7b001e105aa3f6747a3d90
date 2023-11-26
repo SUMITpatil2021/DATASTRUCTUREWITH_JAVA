@@ -1,0 +1,39 @@
+package DyanamicStack;
+
+import java.util.Scanner;
+
+public class StackTest {
+
+	public static void main(String[] args) {
+	Scanner sc=new Scanner(System.in);
+	Stack s1=new Stack();
+	int ch;
+	
+	do
+	{
+		System.out.println();
+		System.out.println("1. Push");
+		System.out.println("2. pop");
+		System.out.println("3. Display");
+		System.out.println("0. Exit");
+		System.out.println("Enter your choice");
+		ch=sc.nextInt();
+	switch(ch)	
+	{
+	case 1:
+			System.out.println("Enter data");
+			int data=sc.nextInt();
+			s1.push(data);
+			break;
+	case 2:
+		data=s1.pop();
+		System.out.println("Deleted element:"+data);
+		break;
+	case 3:
+		s1.display();
+	}	
+	}while(ch!=0);
+
+	}
+
+}
